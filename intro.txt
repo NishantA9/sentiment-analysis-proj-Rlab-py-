@@ -1,0 +1,56 @@
+Model :
+NLP model based on sentiment analysis in R
+
+Data :
+Amazon Product reviews
+
+output :
+sentiment score based on reviews
+
+visualization:
+Tableau
+
+
+How to run -
+
+1) run line 10-12 and then in 21 choose the review file then run 24
+
+2) select line 28 and 29 and run
+what does corpus does
+in text analytics corpus is used for the list of different documetns
+(here doc is reviews) and iconv is - it translates value labels into a specific
+encoding that is used for text analytics and then passing in vector source 
+to create a corpus
+
+3) from 31 till 44 run every line
+
+4) skip line 47,48,49 it will be used later
+
+5) run 51 tgeb 52 and then 54
+
+6) run 57 to 60
+ here termdocument matrix is uesd and we pass the corpus the refined corpus in it
+
+7) run line 65
+next we are summing up all the values in the rows to get actual no of occureance 
+where we take a subset whose occurance would be >= 25
+
+8) now run line 48 then line 54 - 68
+
+9) run line 71
+
+10) now run 86 - 88
+
+so get nrc sentiment gives metrics where row represents each review
+ and col represent emotions
+
+11) run 90 and 95 (note change the final scores csv file or rename it)
+
+12) run the final lines 
+now we will check overall product sentiment by summing up the cols and all
+
+the last graph bar shows that the following book has positive reviews
+and trust factor is good
+
+13) Final Visualization in Tableau
+https://www.youtube.com/watch?v=h6xKoFXn-rk
